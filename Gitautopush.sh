@@ -1,7 +1,7 @@
 #!/bin/bash
 # 上面中的 #! 是一种约定标记, 它可以告诉系统这个脚本需要什么样的解释器来执行;
 
-echo "放弃有道云的利器 GitAutoPush Starting..."
+echo "Saokers-demo  GitAutoPush Starting..."
 time=$(date "+%Y-%m-%d %H:%M:%S")
 git add .
 
@@ -16,5 +16,5 @@ else
 fi
 
 	
-git push origin master
-echo "放弃有道云的利器 GitAutoPush Ending..."
+git push origin main
+echo "Saokers-demo  GitAutoPush Ending..."
