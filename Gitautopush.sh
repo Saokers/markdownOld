@@ -16,5 +16,5 @@ else
 fi
 
 	
-git push origin master
+git push origin main
 echo "放弃有道云的利器 GitAutoPush Ending..."
