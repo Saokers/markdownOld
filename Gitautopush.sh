@@ -16,5 +16,5 @@ else
 fi
 
 	
-git push origin main
+git push origin master
 echo "Saokers-demo  GitAutoPush Ending..."
