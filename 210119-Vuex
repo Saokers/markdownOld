@@ -1,0 +1,30 @@
+#### VueX this.$store.dispatch()
+
+this.$store.dispatch()` 与 `this.$store.commit()`方法的区别总的来说他们只是存取方式的不同,两个方法都是传值给vuex的mutation改变state
+`this.$store.dispatch()` ：含有异步操作，例如向后台提交数据，写法：`this.$store.dispatch(‘action方法名’,值)`
+`this.$store.commit()`：同步操作，，写法：`this.$store.commit(‘mutations方法名’,值)
+
+commit: 同步操作
+
+- 存储 `this.$store.commit('changeValue',name)`
+- 取值 `this.$store.state.changeValue`
+
+dispatch: 异步操作
+
+- 存储 `this.$store.dispatch('getlists',name)`
+- 取值 `this.$store.getters.getlists`
+
+
+
+#### ...mapActions
+
+
+
+
+
+
+
+
+
+
+
